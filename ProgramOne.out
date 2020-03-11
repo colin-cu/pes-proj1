@@ -1,0 +1,108 @@
+Input: -7		Radix: 10	 Operand Size: 4
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b0111		0b1111		0b0000
+Octal (abs):			07		17		0
+Decimal (abs):			7		15		0
+Hexadecimal (abs):		0X7		0XF		0
+Signed One’s Compliment:	0b1000		0b0111		0b1000
+Signed Two’s Compliment:	0b1001		0b0111		0b1001
+Sign Magnitude:			0b1111		0b0111		0b1111
+Input: -7		Radix: 9	 Operand Size: 4
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b0111		0b1111		0b0000
+Octal (abs):			07		17		0
+Decimal (abs):			7		15		0
+Hexadecimal (abs):		0X7		0XF		0
+Signed One’s Compliment:	0b1000		0b0111		0b1000
+Signed Two’s Compliment:	0b1001		0b0111		0b1001
+Sign Magnitude:			0b1111		0b0111		0b1111
+Input: -7		Radix: 10	 Operand Size: 5
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b00111		0b11111		0b00000
+Octal (abs):			07		37		0
+Decimal (abs):			7		31		0
+Hexadecimal (abs):		0X7		0X1F		0
+Signed One’s Compliment:	0b11000		0b01111		0b10000
+Signed Two’s Compliment:	0b11001		0b01111		0b10001
+Sign Magnitude:			0b10111		0b01111		0b11111
+Input: -10		Radix: 10	 Operand Size: 4
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b1010		0b1111		0b0000
+Octal (abs):			012		17		0
+Decimal (abs):			10		15		0
+Hexadecimal (abs):		0XA		0XF		0
+Signed One’s Compliment:	Error		0b0111		0b1000
+Signed Two’s Compliment:	Error		0b0111		0b1001
+Sign Magnitude:			Error		0b0111		0b1111
+Input: 236		Radix: 10	 Operand Size: 8
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b11101100		0b11111111		0b00000000
+Octal (abs):			0354		377		0
+Decimal (abs):			236		255		0
+Hexadecimal (abs):		0XEC		0XFF		 0
+Signed One’s Compliment:	Error		0b01111111		0b10000000
+Signed Two’s Compliment:	Error		0b01111111		0b10000001
+Sign Magnitude:			Error		0b01111111		0b11111111
+Input: 0354		Radix: 8	 Operand Size: 8
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b11101100		0b11111111		0b00000000
+Octal (abs):			0354		377		0
+Decimal (abs):			236		255		0
+Hexadecimal (abs):		0XEC		0XFF		 0
+Signed One’s Compliment:	Error		0b01111111		0b10000000
+Signed Two’s Compliment:	Error		0b01111111		0b10000001
+Sign Magnitude:			Error		0b01111111		0b11111111
+Input: 0xEB		Radix: 16	 Operand Size: 8
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b11101011		0b11111111		0b00000000
+Octal (abs):			0353		377		0
+Decimal (abs):			235		255		0
+Hexadecimal (abs):		0XEB		0XFF		 0
+Signed One’s Compliment:	Error		0b01111111		0b10000000
+Signed Two’s Compliment:	Error		0b01111111		0b10000001
+Sign Magnitude:			Error		0b01111111		0b11111111
+Input: -125		Radix: 10	 Operand Size: 8
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b01111101		0b11111111		0b00000000
+Octal (abs):			0175		377		0
+Decimal (abs):			125		255		0
+Hexadecimal (abs):		0X7D		0XFF		 0
+Signed One’s Compliment:	0b10000010		0b01111111		0b10000000
+Signed Two’s Compliment:	0b10000011		0b01111111		0b10000001
+Sign Magnitude:			0b11111101		0b01111111		0b11111111
+Input: 65400		Radix: 10	 Operand Size: 8
+Output:				Value		Maximum		Minimum
+Binary (abs):			Error		0b11111111		0b00000000
+Octal (abs):			0177570		377		0
+Decimal (abs):			65400		255		0
+Hexadecimal (abs):		0XFF78		0XFF		 0
+Signed One’s Compliment:	Error		0b01111111		0b10000000
+Signed Two’s Compliment:	Error		0b01111111		0b10000001
+Sign Magnitude:			Error		0b01111111		0b11111111
+Input: 65400		Radix: 10	 Operand Size: 16
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b1111111101111000		0b1111111111111111		0b0000000000000000
+Octal (abs):			0177570		177777		0
+Decimal (abs):			65400		65535		0
+Hexadecimal (abs):		0XFF78		0XFFFF		   0
+Signed One’s Compliment:	Error		0b0111111111111111		0b1000000000000000
+Signed Two’s Compliment:	Error		0b0111111111111111		0b1000000000000001
+Sign Magnitude:			Error		0b0111111111111111		0b1111111111111111
+Input: -32701		Radix: 10	 Operand Size: 16
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b0111111110111101		0b1111111111111111		0b0000000000000000
+Octal (abs):			077675		177777		0
+Decimal (abs):			32701		65535		0
+Hexadecimal (abs):		0X7FBD		0XFFFF		   0
+Signed One’s Compliment:	0b1000000001000010		0b0111111111111111		0b1000000000000000
+Signed Two’s Compliment:	0b1000000001000011		0b0111111111111111		0b1000000000000001
+Sign Magnitude:			0b1111111110111101		0b0111111111111111		0b1111111111111111
+Input: -6		Radix: 10	 Operand Size: 4
+Output:				Value		Maximum		Minimum
+Binary (abs):			0b0110		0b1111		0b0000
+Octal (abs):			06		17		0
+Decimal (abs):			6		15		0
+Hexadecimal (abs):		0X6		0XF		0
+Signed One’s Compliment:	0b1001		0b0111		0b1000
+Signed Two’s Compliment:	0b1010		0b0111		0b1001
+Sign Magnitude:			0b1110		0b0111		0b1111
