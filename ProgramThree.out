@@ -1,0 +1,12 @@
+0x0000FACE
+last 4 in binary: 1110
+3 of last 4? : 3 (TRUE)
+0x0000CEFA
+last 4 in binary: 1010
+3 of last 4? : 2 (FALSE)
+0x0000CEFA -> Six to Left -> 0x0033BE80
+last 4 in binary: 0000
+3 of last 4? : 0 (FALSE)
+0x0033BE80 -> Four to Right -> 0x00033BE8
+last 4 in binary: 1000
+3 of last 4? : 1 (FALSE)
